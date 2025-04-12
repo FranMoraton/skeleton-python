@@ -1,0 +1,8 @@
+#!/bin/sh
+
+SCRIPT=$(make validate 2>&1)
+STATUS=$?
+
+echo "$SCRIPT"
+
+exit $STATUS

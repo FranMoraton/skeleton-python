@@ -1,0 +1,53 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.env
+.env
+.venv/
+*.venv/
+*.egg
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+
+# Docker
+*.log
+docker-compose.override.yml
+.env.docker
+
+# Ruff (herramienta de linting)
+.ruff_cache/
+
+# Mypy (herramienta de type-checking)
+.mypy_cache/
+dmypy.json
+dmypy.log
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# FastAPI/UV
+uv.log
+uvx.log
+
+# IDEs/Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Miscellaneous
+*.bak
+*.tmp
+*.old
